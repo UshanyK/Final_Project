@@ -30,6 +30,10 @@ The following vulnerabilities were identified on each target:
   - Cross Site Request Forgery
   - Exposed Private Directories
   - Service regsvc in Microsoft Windows 2000 systems vulnerable to denial of service
+  - Weak user password
+  - unsalted hashes of user passwords
+  - Incorrect configuration of User privileges (steven had python privileges)
+  - Port 20 and 80 open
 ![](Images/Vuln_Scan_1.png)
 ![](Images/Vuln_Scan_2.png)
 
